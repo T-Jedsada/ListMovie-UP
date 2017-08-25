@@ -6,7 +6,7 @@ public class MainContract {
         void setResult(String result);
     }
 
-    public interface MainControllerable {
+    interface MainControllerable {
         void plus(int x, int y);
 
         void minus(int x, int y);

@@ -18,8 +18,8 @@ public class CalculatorTest {
 
     @Test
     public void minus() throws Exception {
-        int result = calculator.minus(5,5);
-        Assert.assertEquals(0, result);
+        int result = calculator.minus(4,5);
+        Assert.assertEquals(-1, result);
     }
 
     @Test
