@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context="com.jedsada.listmovieup.MainActivity">
+    tools:context="com.jedsada.listmovieup.calculator.MainActivity">
 
     <EditText
         android:id="@+id/et_number_one"

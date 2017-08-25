@@ -1,4 +1,4 @@
-package com.jedsada.listmovieup;
+package com.jedsada.listmovieup.calculator;
 
 public class Calculator {
 

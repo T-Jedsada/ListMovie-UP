@@ -1,12 +1,12 @@
-package com.jedsada.listmovieup;
+package com.jedsada.listmovieup.calculator;
 
-class MainController implements MainContract.MainControllerable {
+public class MainController implements MainContract.MainControllerable {
 
     private Calculator calculator;
 
     private MainContract.MainView view;
 
-    MainController(MainContract.MainView view) {
+    public MainController(MainContract.MainView view) {
         calculator = new Calculator();
         this.view = view;
     }

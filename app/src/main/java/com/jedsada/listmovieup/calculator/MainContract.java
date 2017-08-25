@@ -1,12 +1,12 @@
-package com.jedsada.listmovieup;
+package com.jedsada.listmovieup.calculator;
 
-class MainContract {
+public class MainContract {
 
-    interface MainView {
+    public interface MainView {
         void setResult(String result);
     }
 
-    interface MainControllerable {
+    public interface MainControllerable {
         void plus(int x, int y);
 
         void minus(int x, int y);

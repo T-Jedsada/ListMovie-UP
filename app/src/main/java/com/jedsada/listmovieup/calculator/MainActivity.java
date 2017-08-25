@@ -1,4 +1,4 @@
-package com.jedsada.listmovieup;
+package com.jedsada.listmovieup.calculator;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.jedsada.listmovieup.R;
 
 import java.util.Arrays;
 import java.util.List;

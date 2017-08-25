@@ -1,5 +1,8 @@
 package com.jedsada.listmovieup;
 
+import com.jedsada.listmovieup.calculator.MainContract;
+import com.jedsada.listmovieup.calculator.MainController;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,5 +1,7 @@
 package com.jedsada.listmovieup;
 
+import com.jedsada.listmovieup.calculator.Calculator;
+
 import junit.framework.Assert;
 
 import org.junit.Test;
