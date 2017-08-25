@@ -11,7 +11,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity
-        implements View.OnClickListener, MainView {
+        implements View.OnClickListener, MainContract.MainView {
 
     private Button btnPlus;
     private Button btnMinus;

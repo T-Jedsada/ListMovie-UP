@@ -1,29 +1,33 @@
 package com.jedsada.listmovieup;
 
-class MainController {
+class MainController implements MainContract.MainControllerable {
 
     private Calculator calculator;
 
-    private MainView view;
+    private MainContract.MainView view;
 
-    MainController(MainView view) {
+    MainController(MainContract.MainView view) {
         calculator = new Calculator();
         this.view = view;
     }
 
-    void plus(int x, int y) {
+    @Override
+    public void plus(int x, int y) {
         view.setResult(String.valueOf(calculator.plus(x, y)));
     }
 
-    void minus(int x, int y) {
+    @Override
+    public void minus(int x, int y) {
         view.setResult(String.valueOf(calculator.minus(x, y)));
     }
 
-    void multiply(int x, int y) {
+    @Override
+    public void multiply(int x, int y) {
         view.setResult(String.valueOf(calculator.multiply(x, y)));
     }
 
-    void divide(int x, int y) {
+    @Override
+    public void divide(int x, int y) {
         view.setResult(String.valueOf(calculator.divide(x, y)));
     }
 }
